@@ -25,5 +25,5 @@ services:
       - BROWSER=chrome
       - HUB_HOST=hub
       - MODULE=ecommerce-module.xml
-    volumes:
-      - ./search-result:/usr/dockerlearnings/test-output
+    # volumes:
+    #   - ./search-result:/usr/dockerlearnings/test-output
